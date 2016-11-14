@@ -1,0 +1,17 @@
+.document
+.editorconfig
+.rdoc_options
+.simplecov
+ChangeLog
+History.md
+LICENSE.txt
+Manifest.txt
+README.md
+Rakefile
+lib/thingfish/processor/mp3.rb
+spec/data/APIC-1-image.mp3
+spec/data/APIC-2-images.mp3
+spec/data/PIC-1-image.mp3
+spec/data/PIC-2-images.mp3
+spec/spec_helper.rb
+spec/thingfish/processor/mp3_spec.rb
