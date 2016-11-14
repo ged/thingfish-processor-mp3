@@ -26,10 +26,12 @@ hoespec = Hoe.spec 'thingfish-processor-mp3' do |spec|
 
 	spec.developer 'Michael Granger', 'ged@FaerieMUD.org'
 
-	spec.dependency 'loggability', '~> 0.11'
+	spec.dependency 'thingfish',    '~> 0.5'
+	spec.dependency 'ruby-mp3info', '~> 0.8'
+	spec.dependency 'loggability',  '~> 0.11'
 
-	spec.dependency 'hoe-deveiate',            '~> 0.3', :developer
-	spec.dependency 'simplecov',               '~> 0.7', :developer
+	spec.dependency 'hoe-deveiate',            '~> 0.8', :developer
+	spec.dependency 'simplecov',               '~> 0.12', :developer
 	spec.dependency 'rdoc-generator-fivefish', '~> 0.1', :developer
 
 	spec.require_ruby_version( '>=2.3.1' )
