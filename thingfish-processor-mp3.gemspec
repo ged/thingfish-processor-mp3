@@ -1,9 +1,9 @@
 # -*- encoding: utf-8 -*-
-# stub: thingfish-processor-mp3 0.2.pre20161113174605 ruby lib
+# stub: thingfish-processor-mp3 0.2.pre20161114101332 ruby lib
 
 Gem::Specification.new do |s|
   s.name = "thingfish-processor-mp3"
-  s.version = "0.2.pre20161113174605"
+  s.version = "0.2.pre20161114101332"
 
   s.required_rubygems_version = Gem::Requirement.new("> 1.3.1") if s.respond_to? :required_rubygems_version=
   s.require_paths = ["lib"]
@@ -14,7 +14,7 @@ Gem::Specification.new do |s|
   s.email = ["ged@FaerieMUD.org"]
   s.extra_rdoc_files = ["History.md", "LICENSE.txt", "Manifest.txt", "README.md", "History.md", "README.md"]
   s.files = [".document", ".editorconfig", ".rdoc_options", ".simplecov", "ChangeLog", "History.md", "LICENSE.txt", "Manifest.txt", "README.md", "Rakefile", "lib/thingfish/processor/mp3.rb", "spec/data/APIC-1-image.mp3", "spec/data/APIC-2-images.mp3", "spec/data/PIC-1-image.mp3", "spec/data/PIC-2-images.mp3", "spec/spec_helper.rb", "spec/thingfish/processor/mp3_spec.rb"]
-  s.homepage = "home"
+  s.homepage = "https://bitbucket.org/ged/thingfish-processor-mp3"
   s.licenses = ["BSD-3-Clause"]
   s.rdoc_options = ["--main", "README.md"]
   s.required_ruby_version = Gem::Requirement.new(">= 2.3.1")

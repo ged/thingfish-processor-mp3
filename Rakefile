@@ -17,9 +17,15 @@ Hoe.plugins.delete :rubyforge
 Hoe.plugins.delete :gemcutter # Remove for public gems
 
 hoespec = Hoe.spec 'thingfish-processor-mp3' do |spec|
-
 	spec.readme_file = 'README.md'
 	spec.history_file = 'History.md'
+	spec.extra_rdoc_files = FileList[ '*.rdoc', '*.md' ]
+	spec.urls = {
+		home:   'https://bitbucket.org/ged/thingfish-processor-mp3',
+		code:   'https://bitbucket.org/ged/thingfish-processor-mp3',
+		docs:   'https://deveiate.org/code/thingfish-processor-mp3',
+		github: 'https://github.com/ged/thingfish-processor-mp3',
+	}
 
 	spec.extra_rdoc_files = FileList[ '*.rdoc', '*.md' ]
 	spec.license 'BSD-3-Clause'
@@ -82,7 +88,7 @@ task GEMSPEC do |task|
 	spec = $hoespec.spec
 	spec.files.delete( '.gemtest' )
 	spec.signing_key = nil
-	spec.cert_chain = ['certs/ged.pem']
+	spec.cert_chain = Rake::FileList[ 'certs/*.pem' ].to_a
 	spec.version = "#{spec.version.bump}.pre#{Time.now.strftime("%Y%m%d%H%M%S")}"
 	File.open( task.name, 'w' ) do |fh|
 		fh.write( spec.to_ruby )
