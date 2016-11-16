@@ -15,7 +15,9 @@ docs
 
 ## Description
 
-
+This is a basic mp3-processor plugin for the Thingfish digital asset
+manager.  It extracts MP3 metadata (ID3) from uploaded audio files,
+along with any album artwork as related resources.
 
 
 ## Prerequisites
@@ -26,6 +28,16 @@ docs
 ## Installation
 
     $ gem install thingfish-processor-mp3
+
+
+##  Usage
+
+Simply enable this processor in the *Thingfish* section of your configuration:
+
+    --
+    thingfish:
+      processors:
+        - mp3
 
 
 ## Contributing
