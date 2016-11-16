@@ -1,15 +1,15 @@
 # -*- encoding: utf-8 -*-
-# stub: thingfish-processor-mp3 0.2.pre20161114101332 ruby lib
+# stub: thingfish-processor-mp3 0.2.pre20161116110528 ruby lib
 
 Gem::Specification.new do |s|
   s.name = "thingfish-processor-mp3"
-  s.version = "0.2.pre20161114101332"
+  s.version = "0.2.pre20161116110528"
 
   s.required_rubygems_version = Gem::Requirement.new("> 1.3.1") if s.respond_to? :required_rubygems_version=
   s.require_paths = ["lib"]
   s.authors = ["Michael Granger"]
   s.cert_chain = ["certs/ged.pem"]
-  s.date = "2016-11-14"
+  s.date = "2016-11-16"
   s.description = ""
   s.email = ["ged@FaerieMUD.org"]
   s.extra_rdoc_files = ["History.md", "LICENSE.txt", "Manifest.txt", "README.md", "History.md", "README.md"]
