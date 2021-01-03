@@ -1,3 +1,4 @@
-/html/
+/docs/
 ^ChangeLog$
 ^commit\-msg\.txt$
+\.lock$

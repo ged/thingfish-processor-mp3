@@ -1,10 +1,10 @@
 # Thingfish-Processor-MP3
 
 home
-: http://deveiate.org/projects/Thingfish-Processor-MP3
+: https://hg.sr.ht/~ged/thingfish-processor-mp3
 
 code
-: http://bitbucket.org/ged/Thingfish-Processor-MP3
+: https://hg.sr.ht/~ged/thingfish-processor-mp3/browse
 
 github
 : https://github.com/ged/thingfish-processor-mp3
@@ -43,20 +43,25 @@ Simply enable this processor in the *Thingfish* section of your configuration:
 ## Contributing
 
 You can check out the current development source with Mercurial via its
-{project page}[http://bitbucket.org/ged/thingfish-processor-mp3]. Or if you prefer Git, via 
-{its Github mirror}[https://github.com/ged/thingfish-processor-mp3].
+[project page](https://hg.sr.ht/~ged/thingfish-processor-mp3).
 
 After checking out the source, run:
 
-    $ rake newb
+    $ gem install -Ng
+    $ rake setup
 
-This task will install any missing dependencies, run the tests/specs,
-and generate the API documentation.
+This will install dependencies, and do any other necessary setup for
+development.
+
+
+## Authors
+
+* Michael Granger <ged@faeriemud.org>
 
 
 ## License
 
-Copyright (c) 2016, Michael Granger
+Copyright (c) 2016-2021, Michael Granger
 All rights reserved.
 
 Redistribution and use in source and binary forms, with or without
